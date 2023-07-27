@@ -1,0 +1,13 @@
+version: "3.9"
+
+services:
+  node:
+    image: node:16.20.1
+    ports:
+      - 3000:3000
+    volumes:
+      - type: bind
+        source: ./client
+        target: /app
+    tty: true
+    working_dir: /app
