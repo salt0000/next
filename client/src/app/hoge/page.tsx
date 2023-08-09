@@ -5,6 +5,7 @@ export default function Hoge() {
     <main>
       <div>テスト</div>
       <div>テスト2</div>
+      <div>テスト3</div>
       {process.env.NEXT_PUBLIC_URL}
       <br/>
       {process.env.NEXT_PUBLIC_HOGE}
